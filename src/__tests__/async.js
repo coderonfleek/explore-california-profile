@@ -1,4 +1,5 @@
 import {asyncPrint} from "../utilities";
+import store from 
 
 /* test ("Test asynchronous printing", () => {
     return asyncPrint().then(data => {
