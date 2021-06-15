@@ -33,9 +33,10 @@
                           <div class="form-group">
                             <input v-model="password" type="password" placeholder="Enter Password" class="form-control login-password">
                           </div>
-                          <button type="button" class="btn btn-primary" @click="login()">
+                          <button type="button" class="btn btn-primary login-button" @click="login()">
                             Login
                           </button>
+                          
                         </div>
                       </form>
                     </div>
